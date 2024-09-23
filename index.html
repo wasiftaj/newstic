@@ -3,21 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The CineSearch</title>
+    <link rel="shortcut icon" href="media/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <header class="header">
-        <div class="logo">
-            <a href="index.html"><img src="cinesearch.png" alt="Cinesearch Logo"></a>
-        </div>
-        <div class="navbar">
-            <div class="dropdown">
-                <button class="dropbtn">
-                    <i class="fa-solid fa-bars"></i>&nbsp;&nbsp;Menu
-                </button>
+    <header>
+        <div class="mainheaderdiv">
+            <div class="logo">
+                <a href="index.html"><img src="media/logo.png" alt="The CineSearch Logo"></a>
+            </div>
+            <div class="navmain">
+                <nav>
+                    <ul>
+                        <a href="#index"><li>Home</li></a>
+                        <a href="#index"><li>Explore</li></a>
+                        <a href="#index"><li>Genre</li></a>
+                        <a href="#index"><li>Latest</li></a>
+                        <li><i class="fas fa-search"></i></li>
+                        <input type="text" class="searchbar" id="searchbar" placeholder="Search CineSearch">
+                    </ul>
+                </nav>
+            </div>
+            <div class="langdiv">
+                <img width="30" height="30" src="https://img.icons8.com/ios/50/FFFFFF/globe--v1.png" alt="globe--v1"/>
             </div>
         </div>
     </header>
