@@ -4,7 +4,7 @@ body {
     font-family: Arial, Sans-serif;
 }
 header {
-    background-color: rgb(41, 39, 39);
+    background-color: #292727;
 }
 .mainheaderdiv {
     display: flex;
@@ -55,4 +55,8 @@ header {
 }
 .langdiv img {
     margin-top: 33px;
+}
+.mainback {
+    display: flex;
+    margin-top: 30px;
 }
